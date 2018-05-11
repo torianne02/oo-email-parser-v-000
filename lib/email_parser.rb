@@ -5,12 +5,11 @@
 class EmailParser
   attr_accessor :emails
 
-  @@email_array = []
-
   def initialize(emails)
     @emails = emails
-    @@email_array << emails
   end
 
-
+  def self.parse(emails)
+    array_of_emails = emails.join(" ") || array_of_emails = emails.join(", ")
+    array_of_emails 
 end
