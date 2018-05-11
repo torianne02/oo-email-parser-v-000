@@ -9,7 +9,7 @@ class EmailParser
     @emails = emails
   end
 
-  def self.parse(emails)
+  def parse(emails)
     array_of_emails = emails.join(" ") || array_of_emails = emails.join(", ")
     array_of_emails
   end
