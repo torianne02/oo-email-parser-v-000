@@ -11,5 +11,6 @@ class EmailParser
 
   def self.parse(emails)
     array_of_emails = emails.join(" ") || array_of_emails = emails.join(", ")
-    array_of_emails 
+    array_of_emails
+  end
 end
